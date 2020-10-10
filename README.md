@@ -1,2 +1,2 @@
-# Introduction-to-Python--Hacktoberfest-Beginners
+# CodePython
 Basic Python programs.
