@@ -1,2 +1,2 @@
 # Introduction-to-Python--Hacktoberfest-Beginners
-Basic Python commands.
+Basic Python programs.
