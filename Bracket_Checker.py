@@ -16,5 +16,3 @@ def bracket_checker(exp):
         elif b in brackets.values() and b != queue.pop():
             return False
     return queue == [""]
-
-print(bracket_checker("{"))
