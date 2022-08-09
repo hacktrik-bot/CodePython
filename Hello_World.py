@@ -14,11 +14,12 @@ print(greeting)
 #type 3 - use input 
 
 greeting = "Hello"
+
 print("Hello, who are you?")
 
-youtname = input()
+yourname = input()
 
-print(greeting , youtname ,"!")
+print(greeting , yourname ,"!")
 
 
 #type 4 - Use input without additional print.
@@ -26,6 +27,19 @@ print(greeting , youtname ,"!")
 greeting = "Hello"
 
 
-youtname = input("Hello, who are you? ")
+yourname = input("Hello, who are you? ")
 
-print(greeting , youtname ,"!")
+print(greeting , yourname ,"!")
+
+
+
+
+
+#type 5 - use function 
+
+def Hello(name):
+    yourname = input("Hello, who are you? ")
+
+    print(greeting , yourname ,"!")
+
+Hello("World!")
